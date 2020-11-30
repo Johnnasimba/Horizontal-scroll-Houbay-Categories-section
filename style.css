@@ -38,15 +38,15 @@
  }
  .links {
  
-    padding: 10px 30px;
+    padding: 5px 10px;
  
-    border-radius: 5px;
+    border-radius: 20px;
  
     box-shadow: 0 0 20px -10px rgba(0,0,0,0.5);
  
-    background:rgb(164, 167, 176);
+    background:whitesmoke;
  
-    margin: 0 15px;
+    margin: 0 5px;
  
     display: inline-block;
  
@@ -66,18 +66,14 @@
     text-transform: capitalize;
  
     transition: 0.3s;
+
  
  }
  
  .links:hover {
  
-    background: #212121;
+    filter: brightness(80%);
  
  }
  
- .links:hover a {
- 
-    color: #fff;
- 
- }
  
