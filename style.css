@@ -36,3 +36,48 @@
     white-space: nowrap;
  
  }
+ .links {
+ 
+    padding: 10px 30px;
+ 
+    border-radius: 5px;
+ 
+    box-shadow: 0 0 20px -10px rgba(0,0,0,0.5);
+ 
+    background:rgb(164, 167, 176);
+ 
+    margin: 0 15px;
+ 
+    display: inline-block;
+ 
+    font-size: 1.1rem;
+ 
+    cursor: pointer;
+ 
+ }
+ .links a{
+ 
+    text-decoration: none;
+ 
+    outline: none;
+ 
+    color:#212121;
+ 
+    text-transform: capitalize;
+ 
+    transition: 0.3s;
+ 
+ }
+ 
+ .links:hover {
+ 
+    background: #212121;
+ 
+ }
+ 
+ .links:hover a {
+ 
+    color: #fff;
+ 
+ }
+ 
